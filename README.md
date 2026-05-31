@@ -120,6 +120,7 @@ A cross-encoder reranker (`BAAI/bge-reranker-large`) was tested as a post-retrie
 - **LlamaParse:** Vision-capable PDF parser that recovers compiled TikZ output as figure descriptions; enables quiver topology to enter the retrieval index
 - **RAGAS evaluation:** Full pipeline evaluation (faithfulness, answer relevancy, context precision, context recall) once generation is stable
 - **GraphRAG:** Knowledge graph where nodes are theories/quivers and edges are dualities, RG flows, and quiver subtractions. Multi-hop questions (e.g. "what is the Coulomb branch of the mirror of USp(4) with 6 fundamentals?") require graph traversal, not chunk similarity. This is the natural architecture for a field whose mathematical structure is itself a graph.
+> v1 of the GraphRAG project is available [here](https://github.com/anantshri1/GraphRAG_for_3dQFT).
 - Swapping **Mistral-7B-Instruct 4-bit** for a stronger reader may improve the score. 
 
 ---
